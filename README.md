@@ -1,4 +1,5 @@
-<h1>My Digital CV</h1> 
+<h1>My PortFolio Website</h1> 
 
-Here is the link to it - https://delanodiblasio.netlify.app/ 
-Hope you enjoy!!
+https://delanodiblasio.netlify.app/ 
+
+<h3>Please share and send feedback ! </h3>
