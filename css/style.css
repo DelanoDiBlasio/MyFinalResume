@@ -28,16 +28,16 @@
 
 
 .glow-on-hover {
-    width: 140px;
-    height: 30px;
+    width: 120px;
+    height: 35px;
     border: none;
     outline: none;
     color: #fff;
     background: #111;
     cursor: pointer;
     position: relative;
-    z-index: 2;
-    border-radius: 10px;
+    z-index: 10;
+    border-radius: 5px;
 }
 
 .glow-on-hover:before {
