@@ -26,6 +26,7 @@
           0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
 }
 
+
 .glow-on-hover {
     width: 220px;
     height: 50px;
@@ -56,17 +57,35 @@
     border-radius: 10px;
 }
 
-.gl
-
-@media (min-width: 800px) {
-    :root {
-        --fs-h1: 4.5rem;
-        --fs-h2: 3.75rem;
-        --fs-h3: 1.5rem;
-        --fs-body: 1.125rem;
-    }
+.glow-on-hover:active {
+    color: #000
 }
 
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
 /* General styles */
 
 /* endable this to add smooth scrolling */
