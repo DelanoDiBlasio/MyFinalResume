@@ -29,11 +29,11 @@
 
 .glow-on-hover {
     width: 120px;
-    height: 35px;
+    height: 25px;
     border: none;
     outline: none;
     color: #fff;
-    background: #111;
+    background: #66ccff;
     cursor: pointer;
     position: relative;
     z-index: 10;
